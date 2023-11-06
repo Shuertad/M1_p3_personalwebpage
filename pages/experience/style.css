@@ -1,0 +1,134 @@
+.header-work {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.header-education {
+    padding-top: 1.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.position-content-container {
+    display: flex;
+    flex-direction: row;
+    pointer-events: auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#check-toggle-0,
+#check-toggle-1,
+#check-toggle-student-0,
+#check-toggle-student-1,
+#check-toggle-student-2 {
+    display: none;
+}
+
+#check-toggle-0:checked +ul.description-container-0,
+#check-toggle-1:checked +ul.description-container-1,
+#check-toggle-student-0:checked +ul.description-container-student-0,
+#check-toggle-student-1:checked +ul.description-container-student-1,
+#check-toggle-student-2:checked +ul.description-container-student-2 {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    pointer-events: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+    
+    
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+.description-toggle {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.description-container-0,
+.description-container-1,
+.description-container-student-0,
+.description-container-student-1,
+.description-container-student-2 {
+    list-style-type: none;
+    display: none;
+    z-index: 100;
+}
+
+.position-element-description {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+}
+
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.company-logo {
+    object-fit: cover;
+    height: 100px;
+}
+
+.company-logo-description {
+    object-fit: cover;
+    height: 150px;
+}
+
+.position-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.info-container-description {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    gap: 2.5rem;
+}

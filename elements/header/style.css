@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  
+  .home-container {
+    align-items: center;
+  }
+  
+  .home-container > a {
+    font-size: 2.5rem;
+  }
+  
+  .pages-container, .links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.5rem;
+    align-items: center;
+  }
+  
+  .pages-container > a {
+    font-size: 1.2rem;
+  }
+  
+  .pages-container > a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+  
+  .links-container > a:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+  }

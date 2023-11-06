@@ -1,0 +1,53 @@
+.home-content-container {
+    display: flex;
+    flex-direction: column;
+  padding-top: 2.5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  gap: 3.5rem;
+  min-height: 600px;
+}
+
+.personal-info-container {
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 5rem;
+}
+
+.personal-description {
+    max-width: 60vw;
+}
+
+.personal-photo {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.contact-info-container {
+    position: relative;
+    left: 0;
+    width: max-content;
+}
+
+.link-mailto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.link-mailto:hover {
+    text-decoration: underline;
+  text-underline-position: under;
+}
+
+.personal-info-arrow {
+    object-fit: cover;
+    width: 30px;
+    height: 25px;
+}
