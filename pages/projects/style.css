@@ -21,13 +21,15 @@
 
 #check-toggle-0,
 #check-toggle-1,
-#check-toggle-2 {
+#check-toggle-2,
+#check-toggle-3 {
     display: none;
 }
 
 #check-toggle-0:checked +ul.description-container-0,
 #check-toggle-1:checked +ul.description-container-1,
-#check-toggle-2:checked +ul.description-container-2 {
+#check-toggle-2:checked +ul.description-container-2,
+#check-toggle-3:checked +ul.description-container-3 {
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -64,7 +66,8 @@
 
 .description-container-0,
 .description-container-1,
-.description-container-2 {
+.description-container-2,
+.description-container-3 {
     list-style-type: none;
     display: none;
     z-index: 100;

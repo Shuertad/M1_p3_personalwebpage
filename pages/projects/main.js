@@ -70,6 +70,17 @@ const openDescription2 = (ev) => {
 return;
 };
 
+const openDescription3 = (ev) => {
+  if (ev.target.id !== 'check-toggle-3') {
+    if(document.getElementById('check-toggle-3').checked === true){
+      document.getElementById('check-toggle-3').checked = false;
+    };
+    return;
+    };
+return;
+};
+
+
 export const renderProjects = () => {
 
     document.querySelector('main').innerHTML = '';
@@ -84,5 +95,6 @@ export const renderProjects = () => {
     document.addEventListener("click",openDescription0);
     document.addEventListener("click",openDescription1);
     document.addEventListener("click",openDescription2);
+    document.addEventListener("click",openDescription3);
 
   };
