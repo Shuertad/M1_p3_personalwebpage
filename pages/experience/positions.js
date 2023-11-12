@@ -5,7 +5,7 @@ export const workPositions = [{
     endDate: 'Today',
     location: 'Remote',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet pretium ullamcorper. Etiam rhoncus, nunc in tincidunt convallis, tellus ipsum feugiat magna, sed laoreet arcu purus at urna. Vivamus ut erat eget orci ullamcorper congue non non lorem. Fusce a lectus nec lectus cursus semper quis at risus. Duis sit amet aliquet diam, ac tempus massa. Duis sit amet aliquet diam, ac tempus massa. Vestibulum at lectus ultricies, porta ipsum vel, molestie mi. Praesent id auctor orci, vel vehicula odio. Nullam libero tortor, tristique id felis nec, venenatis posuere odio. Donec vestibulum neque mi, eu malesuada dolor suscipit id. Nam fermentum sollicitudin velit, at euismod ante ornare nec. Nunc vulputate rhoncus mi at ultrices. Orci varius natoque penatibus et magnis dis',
-    imageUrl: '/public/resources/logos/logo-jt.jpg',
+    imageUrl: '/resources/logos/logo-jt.jpg',
     companyURL: 'https://www.jobandtalent.com/'
 },
 {
@@ -15,7 +15,7 @@ positionName: 'Investment & Financial Consultant',
     endDate: 'July 2022',
     location: 'Madrid, Spain',
     description: '',
-    imageUrl: '/public/resources/logos/logo-tsc.jpg',
+    imageUrl: '/resources/logos/logo-tsc.jpg',
     companyURL: 'https://tscfo.com/en/'
 },
 ];
@@ -27,7 +27,7 @@ export const studentPositions = [{
     endDate: '2021',
     location: 'Madrid, Spain',
     description: '',
-    imageUrl: '/public/resources/logos/logo-urjc.jpg'
+    imageUrl: '/resources/logos/logo-urjc.jpg'
 }, 
 {
     degreeName: 'Erasmus+ Exchange program',
@@ -36,7 +36,7 @@ export const studentPositions = [{
     endDate: '2020',
     location: 'Groningen, Netherlands',
     description: '',
-    imageUrl: '/public/resources/logos/logo-rijgrog.jpg'
+    imageUrl: '/resources/logos/logo-rijgrog.jpg'
 },  
 {
     degreeName: 'Bachelor of Science in Physics, Theoretical Physics',
@@ -45,7 +45,7 @@ export const studentPositions = [{
     endDate: '2020',
     location: 'Madrid, Spain',
     description: '',
-    imageUrl: '/public/resources/logos/logo-ucm.jpg'
+    imageUrl: '/resources/logos/logo-ucm.jpg'
 },
 ];
 

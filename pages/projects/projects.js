@@ -2,25 +2,25 @@ export const projects = [
     {
         positionName: 'PayShare',
         startDate: 'WIP',
-        imageUrl: '/public/resources/logos/PayShare2.jpg',
+        imageUrl: '/resources/logos/PayShare2.jpg',
         link: ''
     },
     {
     positionName: 'This website',
     startDate: 'July 2023',
-    imageUrl: '/public/resources/logos/logo-shds.jpg',
+    imageUrl: '/resources/logos/logo-shds.jpg',
     link: '#'
 },
 {
     positionName: 'GuutRecords',
     startDate: 'May 2023',
-    imageUrl: '/public/resources/logos/GuutRecords_nobackground.jpg',
+    imageUrl: '/resources/logos/GuutRecords_nobackground.jpg',
     link: 'https://guutrecords.netlify.app/'
 },
 {
     positionName: 'QueMePongo!',
     startDate: 'April 2023',
-    imageUrl: '/public/resources/logos/quemepongo-logo2.png',
+    imageUrl: '/resources/logos/quemepongo-logo2.png',
     link: 'https://quemepongo.netlify.app/'
 },
 ];
