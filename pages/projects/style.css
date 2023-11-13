@@ -128,3 +128,41 @@
 .description-link {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 800px) {
+    .description-container-0,
+    .description-container-1,
+    .description-container-2,
+    .description-container-3 {
+        overflow-y: auto;
+        max-height: 70vh;
+    }
+    
+    .position-element-description {
+        flex-direction: column;
+        gap: 2vh;
+        margin-top: 4vh;
+    }
+    
+    .description-toggle {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .company-logo {
+        object-fit: cover;
+        height: 10vh;
+    }
+    
+    .position-content-container {
+         gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    .company-logo-description {
+        height: auto;
+        
+        max-height: 100px;
+    }
+      
+    }
