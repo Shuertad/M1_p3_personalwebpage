@@ -20,7 +20,7 @@ export const projects = [
 {
     positionName: 'QueMePongo!',
     startDate: 'April 2023',
-    imageUrl: '/resources/logos/quemepongo-logo2.png',
+    imageUrl: '/resources/logos/quemepongo-logo.png',
     link: 'https://quemepongo.netlify.app/'
 },
 ];
