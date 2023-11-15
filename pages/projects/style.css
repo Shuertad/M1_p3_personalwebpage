@@ -37,7 +37,7 @@
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    height:fit-content;
+    height: fit-content;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -168,11 +168,11 @@
     }
 
     @media only screen and (-webkit-max-device-pixel-ratio: 800px) { 
-        .description-container-0,
-        .description-container-1,
-        .description-container-2,
-        .description-container-3 {
+        #check-toggle-0:checked +ul.description-container-0,
+#check-toggle-1:checked +ul.description-container-1,
+#check-toggle-2:checked +ul.description-container-2,
+#check-toggle-3:checked +ul.description-container-3  {
             overflow-y: auto;
-            height: 500px;
+            box-sizing: border-box;
         }    
     }
