@@ -165,3 +165,15 @@
 }
   
 }
+
+@media only screen and (-webkit-max-device-pixel-ratio: 800px) { 
+    .description-container-0,
+    .description-container-1,
+    .description-container-student-0,
+    .description-container-student-1,
+    .description-container-student-2 {
+        overflow-y: auto;
+        max-height: 70vh;
+        height: fit-content;
+    }    
+}
