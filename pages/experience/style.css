@@ -42,10 +42,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    pointer-events: auto;
+   
     margin: auto;
     width: 80%;
-    height: fit-content;
+    height: 70svh;
     left: 0;
     right: 0;
     top: 0;
