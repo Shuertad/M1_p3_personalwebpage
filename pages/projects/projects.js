@@ -2,7 +2,7 @@ export const projects = [
     {
         positionName: 'PayShare',
         startDate: 'WIP',
-        imageUrl: '/resources/logos/PayShare2.jpg',
+        imageUrl: '/resources/logos/logo-payshare3.jpg',
         link: ''
     },
     {

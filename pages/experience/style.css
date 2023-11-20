@@ -40,15 +40,10 @@
     position: fixed;
     display: flex;
     flex-direction: row;
-    pointer-events: auto;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     left: 0;
     right: 0;
     top: 0;
