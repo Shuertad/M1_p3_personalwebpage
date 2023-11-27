@@ -105,7 +105,7 @@ export const tagTemplateDescriptionStudent = [
     As part of a European exchange program I had the opportunity to study in Netherlands for six months. I enrolled in the first semester classes of the Masters in Theoretical Physics of the University of Groningen.
     </p><br>
     <p>
-    At a personal level, the experience made me more confident to show myself to new people and embrace situations outside of my confort zone. I learnt a lot, had fun, met new intresting people and learnt how to ride a bike with no hands :)
+    At a personal level, the experience made me more confident and willing to embrace situations outside of my confort zone. I gained a new perspective on how life is outside of Spain and the social and cultural environment in The Netherlands.
     <p>
     `,
     `

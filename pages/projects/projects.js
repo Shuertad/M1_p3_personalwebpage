@@ -48,7 +48,7 @@ export const tagTemplateDescriptionProjects = [
     `,
     `
     <p>
-    I built the website for an <a href = "${projects[2].link}" class = "description-link" target = "_blank">online vinyl store</a>. The store itself didn't exists and I never wanted to sell anaything. The goal was to build the landing page for an ecommerce and focus on aligning the visual design with the type of products sold and with the audience.
+    I built the website for an <a href = "${projects[2].link}" class = "description-link" target = "_blank">online vinyl store</a>. The store itself didn't exists and I never wanted to sell anything. The goal was to build the landing page for an ecommerce and focus on aligning the visual design with the type of products sold and with the audience.
     </p><br>
     <p>
     On top of the design, I focused on adding basic ecommerce functionalities like a burger menu at the top right-hand corner of the page and a filter section to interact with the product display.
