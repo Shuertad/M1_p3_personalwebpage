@@ -63,6 +63,15 @@
     margin-right: 5rem;
 }
 
+.description-link {
+    font-weight: bold;
+}
+
+.description-link:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 .description-container-0,
 .description-container-1,
 .description-container-2,

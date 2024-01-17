@@ -5,7 +5,7 @@ export const workPositions = [{
     location: 'Remote',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet pretium ullamcorper. Etiam rhoncus, nunc in tincidunt convallis, tellus ipsum feugiat magna, sed laoreet arcu purus at urna. Vivamus ut erat eget orci ullamcorper congue non non lorem. Fusce a lectus nec lectus cursus semper quis at risus. Duis sit amet aliquet diam, ac tempus massa. Duis sit amet aliquet diam, ac tempus massa. Vestibulum at lectus ultricies, porta ipsum vel, molestie mi. Praesent id auctor orci, vel vehicula odio. Nullam libero tortor, tristique id felis nec, venenatis posuere odio. Donec vestibulum neque mi, eu malesuada dolor suscipit id. Nam fermentum sollicitudin velit, at euismod ante ornare nec. Nunc vulputate rhoncus mi at ultrices. Orci varius natoque penatibus et magnis dis',
     imageUrl: '/resources/logos/logo-jt.jpg',
-    URL: 'https://www.jobandtalent.com/'
+    link: 'https://www.jobandtalent.com/'
 },
 {
     positionName: 'Investment & Financial Consultant',
@@ -14,7 +14,7 @@ export const workPositions = [{
     location: 'Madrid, Spain',
     description: '',
     imageUrl: '/resources/logos/logo-tsc.jpg',
-    URL: 'https://tscfo.com/en/'
+    link: 'https://tscfo.com/en/'
 }
 ];
 
@@ -25,7 +25,7 @@ export const studentPositions = [{
     location: 'Madrid, Spain',
     description: '',
     imageUrl: '/resources/logos/logo-urjc.jpg',
-    URL: '#'
+    link: '#'
 }, 
 {
     positionName: 'Erasmus+ Exchange program',
@@ -34,7 +34,7 @@ export const studentPositions = [{
     location: 'Groningen, Netherlands',
     description: '',
     imageUrl: '/resources/logos/logo-rijgrog.jpg',
-    URL: '#'
+    link: '#'
 },  
 {
     positionName: 'Bachelor of Science in Physics, Theoretical Physics',
@@ -43,7 +43,7 @@ export const studentPositions = [{
     location: 'Madrid, Spain',
     description: '',
     imageUrl: '/resources/logos/logo-ucm.jpg',
-    URL: '#'
+    link: '#'
 },
 ];
 

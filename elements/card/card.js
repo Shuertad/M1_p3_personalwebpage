@@ -20,7 +20,7 @@ export const tagTemplateCard = (position,i,descriptions,type) => `
 <ul class = "description-container-${i}" id = "click-target-${i}">
 <span class = "position-element-description">
 <div class="logo-container">
-<a href = "${position.URL}" target="_blank">
+<a href = "${position.link}" target="_blank">
 <img class="company-logo-description" src="${position.imageUrl}" alt="logo-${position.organizationName}">
 </a>
 </div>
