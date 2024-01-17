@@ -1,14 +1,3 @@
-.header-work {
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.header-education {
-    padding-top: 1.5rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
 .position-content-container {
     display: flex;
     flex-direction: row;
@@ -26,17 +15,17 @@
 
 #check-toggle-0,
 #check-toggle-1,
-#check-toggle-student-0,
-#check-toggle-student-1,
-#check-toggle-student-2 {
+#check-toggle-2,
+#check-toggle-3,
+#check-toggle-4 {
     display: none;
 }
 
 #check-toggle-0:checked +ul.description-container-0,
 #check-toggle-1:checked +ul.description-container-1,
-#check-toggle-student-0:checked +ul.description-container-student-0,
-#check-toggle-student-1:checked +ul.description-container-student-1,
-#check-toggle-student-2:checked +ul.description-container-student-2 {
+#check-toggle-2:checked +ul.description-container-2,
+#check-toggle-3:checked +ul.description-container-3,
+#check-toggle-4:checked +ul.description-container-4 {
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -62,6 +51,12 @@
     background-color: white;
 }
 
+.info-container-description {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding-bottom: 4vh;
+}
 
 .description-toggle {
     margin-left: 5rem;
@@ -70,9 +65,9 @@
 
 .description-container-0,
 .description-container-1,
-.description-container-student-0,
-.description-container-student-1,
-.description-container-student-2 {
+.description-container-2,
+.description-container-3,
+.description-container-4 {
     list-style-type: none;
     display: none;
     z-index: 100;
@@ -121,28 +116,19 @@
     font-size: 1.2rem;
 }
 
-.info-container-description {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-    gap: 2.5rem;
-}
-
 @media only screen and (max-width: 800px) {
 .description-container-0,
 .description-container-1,
-.description-container-student-0,
-.description-container-student-1,
-.description-container-student-2 {
+.description-container-2,
+.description-container-3,
+.description-container-4 {
     overflow-y: auto;
     max-height: 70vh;
 }
 
 .position-element-description {
     flex-direction: column;
-    gap: 2vh;
+    gap: 3vh;
     margin-top: 4vh;
 }
 
@@ -166,10 +152,10 @@
 @media only screen and (-webkit-max-device-pixel-ratio: 800px) { 
     
     #check-toggle-0:checked +ul.description-container-0,
-#check-toggle-1:checked +ul.description-container-1,
-#check-toggle-student-0:checked +ul.description-container-student-0,
-#check-toggle-student-1:checked +ul.description-container-student-1,
-#check-toggle-student-2:checked +ul.description-container-student-2 {
+    #check-toggle-1:checked +ul.description-container-1,
+    #check-toggle-2:checked +ul.description-container-2,
+    #check-toggle-3:checked +ul.description-container-3,
+    #check-toggle-4:checked +ul.description-container-4 {
                 overflow-y: auto;
                 box-sizing: border-box;
             }      

@@ -1,4 +1,4 @@
-import './style.css';
+import './header.css';
 
 const tagTemplateHeader = `
     <div class="home-container">
@@ -10,8 +10,8 @@ const tagTemplateHeader = `
     </div>
 `;
 
-const elementContainer = document.querySelector('header');
-
 export const renderHeader = () => {
+  const elementContainer = document.querySelector('header');
+
   elementContainer.innerHTML = tagTemplateHeader;
 };

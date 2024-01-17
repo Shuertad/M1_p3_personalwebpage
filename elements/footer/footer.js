@@ -1,9 +1,9 @@
-import './style.css';
+import './footer.css';
 
 const tagTemplateFooter = `
 <div class="border-container">
   <div class="project-credits-container">
-    <p>Shuertad project 2023</p>
+    <p>Shuertad project</p>
   </div>
   <div class="links-container">
     <a
@@ -31,8 +31,8 @@ const tagTemplateFooter = `
 </div>
 `;
 
-const elementContainer = document.querySelector('footer');
-
 export const renderFooter = () => {
+  const elementContainer = document.querySelector('footer');
+
   elementContainer.innerHTML = tagTemplateFooter;
 };
