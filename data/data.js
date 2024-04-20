@@ -59,7 +59,7 @@ export const studentPositions = [{
 export const tagTemplateDescriptionWork = [
     `
     <p>
-    I returned to TSCFO to work with the CEO to help the company get to the next stage. I am working in strategic, operational and admin projects to grow the company's operations and top line. We are working to become the one pit stop for financial managment for startups. We are currently the leading player in Spain and we have opened an office in Berlin to 
+    I returned to TSCFO to work with the CEO to help the company get to the next stage. I am working in strategic, operational and admin projects to grow the company's operations and top line. We are working to become the one pit stop for financial managment for startups. We are currently the leading player in Spain and we have opened an office in Berlin to offer our services in Europe.
     </p>
     `,
     `
