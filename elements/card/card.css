@@ -17,7 +17,8 @@
 #check-toggle-1,
 #check-toggle-2,
 #check-toggle-3,
-#check-toggle-4 {
+#check-toggle-4,
+#check-toggle-5 {
     display: none;
 }
 
@@ -25,7 +26,8 @@
 #check-toggle-1:checked +ul.description-container-1,
 #check-toggle-2:checked +ul.description-container-2,
 #check-toggle-3:checked +ul.description-container-3,
-#check-toggle-4:checked +ul.description-container-4 {
+#check-toggle-4:checked +ul.description-container-4,
+#check-toggle-5:checked +ul.description-container-5 {
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -76,7 +78,8 @@
 .description-container-1,
 .description-container-2,
 .description-container-3,
-.description-container-4 {
+.description-container-4,
+.description-container-5 {
     list-style-type: none;
     display: none;
     z-index: 100;
@@ -130,7 +133,8 @@
 .description-container-1,
 .description-container-2,
 .description-container-3,
-.description-container-4 {
+.description-container-4,
+.description-container-5 {
     overflow-y: auto;
     max-height: 70vh;
 }
@@ -164,7 +168,8 @@
     #check-toggle-1:checked +ul.description-container-1,
     #check-toggle-2:checked +ul.description-container-2,
     #check-toggle-3:checked +ul.description-container-3,
-    #check-toggle-4:checked +ul.description-container-4 {
+    #check-toggle-4:checked +ul.description-container-4,
+    #check-toggle-5:checked +ul.description-container-5 {
                 overflow-y: auto;
                 box-sizing: border-box;
             }      
