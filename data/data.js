@@ -1,7 +1,16 @@
 export const workPositions = [{
+    positionName: 'Chief of Staff',
+    organizationName: 'The Startup CFO',
+    date: 'April 2024 - Today',
+    location: 'Remote',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet pretium ullamcorper. Etiam rhoncus, nunc in tincidunt convallis, tellus ipsum feugiat magna, sed laoreet arcu purus at urna. Vivamus ut erat eget orci ullamcorper congue non non lorem. Fusce a lectus nec lectus cursus semper quis at risus. Duis sit amet aliquet diam, ac tempus massa. Duis sit amet aliquet diam, ac tempus massa. Vestibulum at lectus ultricies, porta ipsum vel, molestie mi. Praesent id auctor orci, vel vehicula odio. Nullam libero tortor, tristique id felis nec, venenatis posuere odio. Donec vestibulum neque mi, eu malesuada dolor suscipit id. Nam fermentum sollicitudin velit, at euismod ante ornare nec. Nunc vulputate rhoncus mi at ultrices. Orci varius natoque penatibus et magnis dis',
+    imageUrl: '/resources/logos/logo-tsc.jpg',
+    link: 'https://tscfo.com/en/'
+},
+{
     positionName: 'HQ - Marketplace Analyst',
     organizationName: 'Job&Talent',
-    date: 'July 2022 - Today',
+    date: 'July 2022 - April 2024',
     location: 'Remote',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam laoreet pretium ullamcorper. Etiam rhoncus, nunc in tincidunt convallis, tellus ipsum feugiat magna, sed laoreet arcu purus at urna. Vivamus ut erat eget orci ullamcorper congue non non lorem. Fusce a lectus nec lectus cursus semper quis at risus. Duis sit amet aliquet diam, ac tempus massa. Duis sit amet aliquet diam, ac tempus massa. Vestibulum at lectus ultricies, porta ipsum vel, molestie mi. Praesent id auctor orci, vel vehicula odio. Nullam libero tortor, tristique id felis nec, venenatis posuere odio. Donec vestibulum neque mi, eu malesuada dolor suscipit id. Nam fermentum sollicitudin velit, at euismod ante ornare nec. Nunc vulputate rhoncus mi at ultrices. Orci varius natoque penatibus et magnis dis',
     imageUrl: '/resources/logos/logo-jt.jpg',
@@ -48,6 +57,11 @@ export const studentPositions = [{
 ];
 
 export const tagTemplateDescriptionWork = [
+    `
+    <p>
+    I returned to TSCFO to work with the CEO to help the company get to the next stage. I am working in strategic, operational and admin projects to grow the company's operations and top line. We are working to become the one pit stop for financial managment for startups. We are currently the leading player in Spain and we have opened an office in Berlin to 
+    </p>
+    `,
     `
     <p>
     Jobandtalent is a scale-up that is leveraging technology to disrupt the temporary employment industry world wide. We are building a marketplace to give workers flexibility and labour safety and companies the tool to find the workers they need at a cost efficient scale.
